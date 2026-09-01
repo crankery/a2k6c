@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "98178a74-9081-4441-88fc-ad854177256d")
 	(paper "A4")
+	(title_block
+		(title "a2k6c")
+		(date "2026-08-31")
+		(rev "rev 1")
+		(company "Dave Hamilton")
+	)
 	(lib_symbols
 		(symbol "74xGxx:74AHCT1GU04"
 			(exclude_from_sim no)
@@ -1902,7 +1908,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "a2k6c:RP2040-ZERO"
+		(symbol "a2k6c:RP2040-ZERO_Basic"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1911,7 +1917,7 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
+			(property "Reference" "∏"
 				(at 3.302 -34.544 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1933,7 +1939,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "a2k6c:MODULE_RP2040-ZERO"
+			(property "Footprint" "a2k6c:MODULE_RP2040-ZERO_Basic"
 				(at 0 -42.418 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1968,7 +1974,7 @@
 					(justify bottom)
 				)
 			)
-			(symbol "RP2040-ZERO_0_0"
+			(symbol "RP2040-ZERO_Basic_0_0"
 				(rectangle
 					(start -12.7 20.32)
 					(end 12.7 -33.02)
@@ -2359,7 +2365,7 @@
 					)
 				)
 				(pin power_in line
-					(at -2.54 -38.1 90)
+					(at 0 -38.1 90)
 					(length 5.08)
 					(name "GND"
 						(effects
@@ -2395,185 +2401,77 @@
 					)
 				)
 			)
-			(symbol "RP2040-ZERO_1_0"
-				(pin bidirectional line
-					(at 17.78 17.78 180)
-					(length 5.08)
-					(name "GP17"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
+			(embedded_fonts no)
+		)
+		(symbol "a2k6c:crankery"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "G"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
-				(pin bidirectional line
-					(at 17.78 15.24 180)
-					(length 5.08)
-					(name "GP18"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
+			)
+			(property "Value" "Crankery"
+				(at 0 0.762 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
-				(pin bidirectional line
-					(at 17.78 12.7 180)
-					(length 5.08)
-					(name "GP19"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
+			)
+			(property "Footprint" "a2k6c:crankery_small"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
-				(pin bidirectional line
-					(at 17.78 10.16 180)
-					(length 5.08)
-					(name "GP20"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
-				(pin bidirectional line
-					(at 17.78 7.62 180)
-					(length 5.08)
-					(name "GP21"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
-				(pin bidirectional line
-					(at 17.78 5.08 180)
-					(length 5.08)
-					(name "GP22"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
+			)
+			(symbol "crankery_1_1"
+				(circle
+					(center 0 -1.27)
+					(radius 0.898)
+					(stroke
+						(width 0)
+						(type solid)
 					)
-					(number "29"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 2.54 180)
-					(length 5.08)
-					(name "GP23"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "30"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 0 180)
-					(length 5.08)
-					(name "GP24"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "31"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -2.54 180)
-					(length 5.08)
-					(name "GP25"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "32"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 -38.1 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "33"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -2986,12 +2884,6 @@
 		(uuid "12dc5034-493f-493a-97c9-d33bd3797370")
 	)
 	(junction
-		(at 191.77 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1b65d02b-6164-410c-8973-14d64bdef198")
-	)
-	(junction
 		(at 85.09 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3046,22 +2938,6 @@
 		(uuid "f74af9ef-bb5d-4ce4-8281-646a7364296d")
 	)
 	(no_connect
-		(at 212.09 40.64)
-		(uuid "01621932-2fb5-4742-8530-152287935559")
-	)
-	(no_connect
-		(at 212.09 35.56)
-		(uuid "12a9ae8c-9228-4110-8536-8ccf90fee474")
-	)
-	(no_connect
-		(at 212.09 38.1)
-		(uuid "3d3158d4-5a14-40c6-bb03-b4ea4e78c914")
-	)
-	(no_connect
-		(at 212.09 45.72)
-		(uuid "50065866-1749-493e-9dd8-2a6fd41ba98b")
-	)
-	(no_connect
 		(at 62.23 110.49)
 		(uuid "5e755aba-0b91-4564-af57-973d80cf6c5b")
 	)
@@ -3070,32 +2946,12 @@
 		(uuid "6f95aabe-c723-42c3-9a05-ef1ab9447652")
 	)
 	(no_connect
-		(at 212.09 30.48)
-		(uuid "7de47d82-aa49-4f1d-afea-d4baa07f6cc5")
-	)
-	(no_connect
-		(at 212.09 27.94)
-		(uuid "8e4ee7ee-03c4-4ade-a186-9becced80afb")
-	)
-	(no_connect
-		(at 212.09 43.18)
-		(uuid "91a8f1b6-2b56-45c4-8159-a29d329e22ee")
-	)
-	(no_connect
-		(at 212.09 48.26)
-		(uuid "b4c2af41-f312-4163-a0e5-54939956d3a2")
-	)
-	(no_connect
 		(at 133.35 58.42)
 		(uuid "b644f0bf-8ac9-43fe-bcac-316a6fba8b6b")
 	)
 	(no_connect
 		(at 62.23 107.95)
 		(uuid "f04ac6bb-54b7-4665-aa72-384089b2d153")
-	)
-	(no_connect
-		(at 212.09 33.02)
-		(uuid "f4daed6d-5e2a-45d1-ba30-b9dc7dd54ae6")
 	)
 	(wire
 		(pts
@@ -3696,16 +3552,6 @@
 			(type default)
 		)
 		(uuid "f203c227-b46c-445f-8090-5e6499027fa1")
-	)
-	(wire
-		(pts
-			(xy 191.77 83.82) (xy 196.85 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7608b40-0d0c-40e1-aff4-e5c2b941a0ba")
 	)
 	(wire
 		(pts
@@ -4503,7 +4349,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 191.77 83.82 0)
+		(at 194.31 83.82 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -4515,7 +4361,7 @@
 		(fields_autoplaced yes)
 		(uuid "4daa0ca9-5cba-4651-ac91-c9580f1aab4d")
 		(property "Reference" "#PWR08"
-			(at 191.77 90.17 0)
+			(at 194.31 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4526,7 +4372,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 191.77 88.9 0)
+			(at 194.31 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4536,7 +4382,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 83.82 0)
+			(at 194.31 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4547,7 +4393,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 83.82 0)
+			(at 194.31 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4558,7 +4404,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 191.77 83.82 0)
+			(at 194.31 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5053,7 +4899,7 @@
 		)
 	)
 	(symbol
-		(lib_id "a2k6c:RP2040-ZERO")
+		(lib_id "a2k6c:RP2040-ZERO_Basic")
 		(at 194.31 45.72 0)
 		(unit 1)
 		(body_style 1)
@@ -5085,7 +4931,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "a2k6c:MODULE_RP2040-ZERO"
+		(property "Footprint" "a2k6c:MODULE_RP2040-ZERO_Basic"
 			(at 194.31 88.138 0)
 			(hide yes)
 			(show_name no)
@@ -5159,9 +5005,6 @@
 		(pin "13"
 			(uuid "ca57108c-331e-4391-86f8-2d0b06bcb2ad")
 		)
-		(pin "32"
-			(uuid "aa40f991-f751-4b39-84c8-2113746a8c80")
-		)
 		(pin "7"
 			(uuid "49f2e3c2-319d-4e09-945e-b1eeb6b267df")
 		)
@@ -5189,35 +5032,8 @@
 		(pin "1"
 			(uuid "4df8ae7a-f516-42fa-aa09-79b48dc45083")
 		)
-		(pin "33"
-			(uuid "1884cc1b-fb31-4114-a7e0-57b9285bc33f")
-		)
-		(pin "24"
-			(uuid "18858a2d-123a-41c7-af28-d6b6880f18cd")
-		)
 		(pin "21"
 			(uuid "ed5a0cbb-50cb-42d2-8dc1-768df7ec7afb")
-		)
-		(pin "29"
-			(uuid "5cfbb8a0-cc2f-4d60-83ee-d24868446588")
-		)
-		(pin "26"
-			(uuid "2e8cb852-7730-426e-a66c-80c93813dbc1")
-		)
-		(pin "30"
-			(uuid "552e5c1c-64e2-4b9b-9840-621df9ca829a")
-		)
-		(pin "27"
-			(uuid "b382afd0-1545-4d78-89d8-e1ed98d9adb6")
-		)
-		(pin "25"
-			(uuid "f1aba11d-ad4c-4a95-b8db-021cd8d35348")
-		)
-		(pin "31"
-			(uuid "0cced40f-e380-429f-acdc-ba8880b7f90d")
-		)
-		(pin "28"
-			(uuid "a51d53ea-a792-4bdd-9d96-5bc743c4fb57")
 		)
 		(instances
 			(project "a2k6c"
@@ -6735,6 +6551,82 @@
 			(project "a2k6c"
 				(path "/98178a74-9081-4441-88fc-ad854177256d"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "a2k6c:crankery")
+		(at 30.48 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eced077f-4ef7-4d8c-b8f4-b208ca2d999d")
+		(property "Reference" "G1"
+			(at 33.02 175.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Crankery"
+			(at 33.02 177.7999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "a2k6c:crankery_small"
+			(at 30.48 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "a2k6c"
+				(path "/98178a74-9081-4441-88fc-ad854177256d"
+					(reference "G1")
 					(unit 1)
 				)
 			)
